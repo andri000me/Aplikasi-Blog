@@ -1,0 +1,317 @@
+section article figure hgroup figcaption {
+	display: block;
+}
+
+body 	{
+	font: 14px/20px arial;
+	color: black;
+	margin: auto;
+	background-color: #eeeeee;
+}
+
+.container	{
+	width: 1000px;
+	margin: auto;
+	overflow: auto;
+	background-color: white;
+	box-shadow: 2px 2px 10px black	 
+}
+.header	{
+	text-align: right;
+	margin: auto;
+	padding: 1px;
+	background-color: #37988e;
+	border-top: 5px solid #00BFFF;
+	width: 100%
+}
+ ul li	{
+	display: inline-block;
+	margin-right: 9px;
+	display: inline-table;
+}
+.header a 	{
+	color: black;
+	text-decoration: none;
+	padding: 16px;
+}
+.header a:hover {
+	background-color: #d68d9a;
+	color: #000;
+}
+.gambar	{
+	height: 150px;
+	background-image: url(img/header.jpg);
+	background-position: 0 -275px;
+	background-size: cover;
+}
+/*Nav*/
+.nav {
+	margin: auto;
+	padding: 1px;
+	background-color: #32CD32;
+	border-bottom: 5px solid #00BFFF;
+}
+.nav ul li {
+	display: inline-table;
+	display: inline-block;
+	margin-right: 7px;
+}
+.nav a {
+	text-decoration: none;
+	padding: 16px;
+	color: black;
+}
+.nav a:hover {
+	background-color: #d68d9a;
+	color: black;
+} 
+/*Content*/
+.content {
+	float: left;
+	width: 650px;
+	background-color: white;
+	box-sizing: border-box;
+}
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+	border-bottom: 2px solid black;
+}
+hgroup {
+	margin-top: 20px;
+	
+}
+hgroup .penulis {
+	font-size: 16px;
+	font-weight: 500;
+	float: right;
+	margin-top: -2px;
+}
+hgroup .penulis span {
+	font-size: 15px;
+	font-family: sans-serif;
+	font-style: italic;
+
+}
+hgroup .date {
+	font-size: 16px;
+	font-weight: 500;
+}
+hgroup .date span {
+	font-size: 15px;
+	font-family: sans-serif;
+	font-style: italic;
+
+}
+figure {
+	float: left;
+	width: 300px;
+	height: 230px;
+	padding: 5px;
+	margin: 20px;
+}
+figure img {
+	width: 300px;
+	height: 230px;
+}
+figcaption {
+	font: 12px/19px sens-serif;
+	text-align: center ;
+	text-shadow: inherit;
+
+}
+button  {
+	margin-bottom: 5px;
+	padding: 10px 5px;
+	color: black;
+	background: lightblue;
+	display: table;
+	position: relative;
+	left: 200px;
+	transition: .3s ease-in;
+}
+a {
+	text-decoration: none;
+}
+.foto {
+	width: 100%;
+	height: 100px;
+}
+/*side bar*/
+.sidebar {
+	width: 320px;
+	float: right;
+	background-color: white;
+}
+.populer {
+	height: 38px;
+	background-color: black;
+}
+.populer h2 {
+	padding: 10px;
+	color: white;
+
+}
+.post ul li {
+	display: inline-table;
+}
+.post a  {
+	color: black;
+}
+.post a h3:hover {
+	margin: 10px;
+	background-color: #eeeeee;
+	color: black;
+}
+
+.category {
+	height: 40px;
+	margin: 5px;
+	background-color: black;
+	
+}
+.category h2 {
+	padding: 10px;
+	color: white;
+}
+.category ul {
+	background-color: black;
+	opacity: 50%;
+}
+.category ul li {
+	margin-bottom: 5px;
+	margin : 10px;
+	transition: .3s ease-in;
+	background-color: green;
+	font-size: 10px;
+	border: 2px solid #00BFFF;
+	padding: 2px;
+}
+.category a {
+	color: black;
+}
+
+/*Pagnation*/
+
+.halaman {
+	padding: 7px;
+	text-align: center;
+}
+.halaman  a {
+	padding: 5px;
+	font-size: 15px;
+	background-color: blue;
+	color: black;
+}
+
+.halaman .aktif {
+	background-color: red;
+}
+
+
+/*Komentar*/
+
+.coment {
+	width: 600px;
+	padding: 3px;
+	margin: 10px;
+}
+.coment .name label {
+	display: block;
+	font-size: 25px;
+	font-weight: 500;
+	padding: 3px;
+	margin-bottom: 10px;
+}
+.coment .name .nama {
+	width: 600px;
+	height: 30px;
+	border-radius: 15px;
+	padding: 5px;
+}
+.coment .name .nama:hover {
+	box-shadow: 4px 4px 10px black;
+}
+.coment .isi_koment {
+	width: 300px;
+}
+.coment .isi_koment label {
+	display: block;
+	font-weight: 500;
+	font-size: 25px;
+	padding: 5px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.coment .isi_koment .komentar {
+	width: 600px;
+	height: 100px;
+	border-radius: 15px;
+	padding: 5px;
+}
+.coment .isi_koment .komentar:hover {
+	box-shadow: 3px 3px 10px black;
+}
+.coment .btn-coment {
+	width: 100px;
+	height: 40px;
+	border-radius: 30px;
+	background-color: #b45253;
+}
+.coment .btn-coment:hover {
+	transition: 1s ease-in;
+	background-color: blue;
+	width: 120px;
+
+}
+.coment .name_coment {
+	width: 350px;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.name_coment h4 {
+	padding: 4px;
+	margin-left: 5px;
+}
+.name_coment .isi {
+	margin-left: 7px;
+}
+.balas {
+	font-size: 15px;
+	left: 15px;
+	padding: 5px;
+	padding: 5px;
+}
+.balas_coment {
+	width: 350px;
+	border-radius: 10px;
+	border: 2px solid black;
+	float: right;
+	margin-bottom: 13px;
+}
+.balas_coment .name {
+	margin-left: 5px;
+	font-size: 20px;
+}
+.balas_coment p {
+	margin-left: 9px;
+}
+
+/* Footer */
+footer {
+	clear: both;
+	text-align: center;
+	size: 28px;
+	background-color: #37988e;
+	padding: 10px;	
+}
+.alret {
+	font-size: 20px;
+	color: blue;
+	text-align: center;
+	padding: 3px;
+	background-color: #32CD32;
+}
+
